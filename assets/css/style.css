@@ -5,13 +5,6 @@
     padding: 0;
 }
 
-/* 
-Font: Santio bold, Roboto, Mr Dafoe
-Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff 
-font-family: 'Anton', sans-serif;
-font-family: 'Mr Dafoe', cursive;
-*/
-
 body{
     font-family: 'Anton', sans-serif;
     background: url(../img/cleo-topper.jpg) center/cover no-repeat fixed;
@@ -28,8 +21,11 @@ header{
     font-family: 'Roboto', sans-serif;
     text-align: right;
 }
-header span{
-    color: #e7bc0e;
+
+header img{
+    width: 15px;
+    display: inline-block;
+    padding-right: 10px;
 }
 
 header h1{
@@ -74,8 +70,8 @@ section:nth-of-type(1) article{
     margin-bottom: 100px;
 }
 
-section:nth-of-type(1) article h1{
-    font-size: 5em;
+section:nth-of-type(1) article img{
+    width: 200px;
 }
 
 section:nth-of-type(1) article h2{
