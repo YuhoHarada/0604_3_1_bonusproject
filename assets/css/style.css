@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mr+Dafoe&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+Font: Santio bold, Roboto, Mr Dafoe
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff 
+font-family: 'Anton', sans-serif;
+font-family: 'Mr Dafoe', cursive;
+*/
+
+body{
+    font-family: 'Anton', sans-serif;
+    background: url(../img/cleo-topper.jpg) center/cover no-repeat fixed;
+    color: #fff;
+}
+
+header, section{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px 50px;
+}
+
+/* ************ header ************ */
+header{
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+header span{
+    color: #e7bc0e;
+}
+
+header h1{
+    line-height: 1.2em;
+    font-size: 1em;
+    display: inline-block;
+    border-bottom: 1px solid #e7bc0e;
+    letter-spacing: 2px;
+}
+
+/* ************ main ************ */
+section:nth-of-type(1)>h1{
+    font-size: 4em;
+    width: 50%;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+}
+
+section:nth-of-type(1)>p:nth-of-type(1){
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 2em;
+    letter-spacing: -1px;
+    color: #e7bc0e;
+    margin-bottom: 300px;
+}
+
+section:nth-of-type(1) p:nth-of-type(2){
+    font-size: 2em;
+    padding: 0 5%;
+    color: #6bc1a3;
+    letter-spacing: 1px;
+    margin-bottom: 300px;
+}
+
+span{
+    color: #fff;
+    background: #333;
+}
+
+section:nth-of-type(1) article{
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+section:nth-of-type(1) article h1{
+    font-size: 5em;
+}
+
+section:nth-of-type(1) article h2{
+    font-size: 6em;
+    letter-spacing: 5px;
+}
+
+section:nth-of-type(1) article p{
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+
+section:nth-of-type(1) article:nth-of-type(1){
+    color: #e7bc0e;
+}
+
+section:nth-of-type(1) article:nth-of-type(2){
+    color: #cb91b6;
+}
+
+section:nth-of-type(1) article:nth-of-type(3){
+    color: #6bc1a3;
+}
+
+section:nth-of-type(1)>p:last-child{
+    width: 70%;
+    font-size: 2em;
+    margin: 0 5% 0 auto;
+    color: #7eb8e1;
+    letter-spacing: 1px;
+}
+
+section:nth-of-type(2){
+    background: #fff url(../img/see.png) center/cover no-repeat;
+    padding: 0;
+}
+
+section:nth-of-type(2) img{
+    display: block;
+    width: 100%;
+}
+
+section:nth-of-type(3){
+    background: #000;
+    padding: 200px 50px;
+}
+
+section:nth-of-type(3) h2{
+    font-size: 5em;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+}
+
+section:nth-of-type(3) a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    letter-spacing: 1px;
+}
+
+section:nth-of-type(3) a:hover{
+    box-shadow: 5px 5px 0 #fff;
+}
+
+/* ************ footer ************ */
+footer{
+    background: #000;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer a{
+    color: #6bc1a3;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
