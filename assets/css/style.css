@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mr+Dafoe&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto&display=swap');
+
+@font-face{
+    font-family: 'Santio';
+    src: url(../font/Santio\ Bold.otf);
+}
 
 *{
     margin: 0;
@@ -6,20 +11,17 @@
 }
 
 body{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Santio';
     background: url(../img/cleo-topper.jpg) center/cover no-repeat fixed;
     color: #fff;
-}
-
-header, section{
-    background: rgba(0, 0, 0, 0.4);
-    padding: 20px 50px;
 }
 
 /* ************ header ************ */
 header{
     font-family: 'Roboto', sans-serif;
     text-align: right;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px 10%;
 }
 
 header img{
@@ -37,27 +39,29 @@ header h1{
 }
 
 /* ************ main ************ */
-section:nth-of-type(1)>h1{
-    font-size: 4em;
-    width: 50%;
-    letter-spacing: 5px;
+section{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 100px 10%;
+}
+
+section:nth-of-type(1) h1{
+    font-size: 5em;
     margin-bottom: 100px;
 }
 
-section:nth-of-type(1)>p:nth-of-type(1){
+section:nth-of-type(1) p{
     font-family: 'Mr Dafoe', cursive;
-    font-size: 2em;
-    letter-spacing: -1px;
+    font-size: 3em;
     color: #e7bc0e;
     margin-bottom: 300px;
 }
 
-section:nth-of-type(1) p:nth-of-type(2){
-    font-size: 2em;
+section:nth-of-type(2) p{
+    font-size: 3em;
     padding: 0 5%;
     color: #6bc1a3;
-    letter-spacing: 1px;
     margin-bottom: 300px;
+    line-height: 1.5em;
 }
 
 span{
@@ -65,75 +69,78 @@ span{
     background: #333;
 }
 
-section:nth-of-type(1) article{
+section:nth-of-type(3) article{
     text-transform: uppercase;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
-section:nth-of-type(1) article img{
+section:nth-of-type(3) article img{
     width: 200px;
+    margin-bottom: 50px;
 }
 
-section:nth-of-type(1) article h2{
-    font-size: 6em;
+section:nth-of-type(3) article h2{
+    font-size: 10em;
     letter-spacing: 5px;
 }
 
-section:nth-of-type(1) article p{
-    font-size: 1.8em;
+section:nth-of-type(3) article p{
+    font-size: 3em;
     letter-spacing: 1px;
 }
 
-section:nth-of-type(1) article:nth-of-type(1){
+section:nth-of-type(3) article:nth-of-type(1){
     color: #e7bc0e;
 }
 
-section:nth-of-type(1) article:nth-of-type(2){
+section:nth-of-type(3) article:nth-of-type(2){
     color: #cb91b6;
 }
 
-section:nth-of-type(1) article:nth-of-type(3){
+section:nth-of-type(3) article:nth-of-type(3){
     color: #6bc1a3;
 }
 
-section:nth-of-type(1)>p:last-child{
-    width: 70%;
-    font-size: 2em;
-    margin: 0 5% 0 auto;
+section:nth-of-type(4) p{
+    padding-left: 30%;
+    font-size: 3em;
     color: #7eb8e1;
     letter-spacing: 1px;
+    line-height: 1.5em;
 }
 
-section:nth-of-type(2){
+section:nth-of-type(5){
     background: #fff url(../img/see.png) center/cover no-repeat;
     padding: 0;
 }
 
-section:nth-of-type(2) img{
+section:nth-of-type(5) img{
     display: block;
     width: 100%;
 }
 
-section:nth-of-type(3){
+section:nth-of-type(6){
     background: #000;
     padding: 200px 50px;
 }
 
-section:nth-of-type(3) h2{
-    font-size: 5em;
+section:nth-of-type(6) h2{
+    font-size: 8em;
     letter-spacing: 3px;
     margin-bottom: 100px;
 }
 
-section:nth-of-type(3) a{
+section:nth-of-type(6) a{
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
     padding: 20px 30px;
     letter-spacing: 1px;
+    font-size: 2em;
 }
 
-section:nth-of-type(3) a:hover{
+section:nth-of-type(6) a:hover{
     box-shadow: 5px 5px 0 #fff;
 }
 
